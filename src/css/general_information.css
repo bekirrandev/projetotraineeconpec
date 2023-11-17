@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.div_title {
+    height: 11vh;
+}
+.div_title h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    margin-left: 12px;
+}
+
+
+.div_button button {
+    background-color: coral;
+    border: none;
+    width: 180px;
+    height: 59px;
+    font-size: 26px;
+    border-radius: 17px;
+    float: right;
+    cursor: pointer;
+
+}
+
+.div_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 80px;
+    margin-right: 10px;
+    
+
+}
+
+.div_sub_title {
+    background-color: coral;
+    border-radius: 0 29px 0 0;
+    width: 548px;
+
+}
+
+.div_inicio {
+    margin-right: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_fim {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_status {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_nome {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_fase {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_valor {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_sub_title h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.div_information_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.div_informations {
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: coral;
+    border-right: 1px solid black;
+    
+
+}
+
+.div_team {
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: coral;
+
+}
+
+.div_title_team {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.div_employee1 {
+    position: relative;
+    top: 20px
+}
+
+.div_employee2 {
+    position: relative;
+    top: 20px
+}
+
+.div_employee3 {
+    position: relative;
+    top: 20px
+}
+
+.div_photo {
+    width: 108px;
+    height: 115px;
+    border-radius: 14px;
+    position: relative;
+    top: 20px
+
+}
+
+.div_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.div_selfs {
+    text-align: center;
+}
+
+.btn-update-information {
+    background-color: #2E8B57;
+    font-size: 17px;
+    color: white;
+    width: 25%;
+    height: 10%;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 600px;
+}

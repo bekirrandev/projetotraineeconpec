@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin:0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/*header config start*/
+header {
+    flex-shrink: 0;
+    display: flex;
+    background-color: #F2A922;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header > h1 > span {
+    color: rgb(252, 213, 142);
+    
+}
+
+header > h1 {
+    margin: 0 0 0 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.397);
+    color: white;
+}
+
+
+
+
+.filter_nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-wrap:wrap;
+      
+}
+
+.header-btn {
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    padding: 6px;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+/* header config end */
+main {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+/*main config end*/
+
+/*main-container config start*/
+
+.main-container {
+    margin: auto;
+    flex: 0 1 85vw;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+/*main-container config end*/
+
+/*table and search bar area*/
+
+.search_bar_container {
+    height: 50px;
+    width: 50vw;
+    align-self:center;
+    margin-top:20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#pesquisa {
+    color: #dd3e0d;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 2px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+    border:1px solid rgb(255, 183, 0);
+    outline: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  
+}
+
+#pesquisa:focus {
+    border:none;
+    outline: none;
+    background-color: #f2a92285;
+}
+
+.table_container {
+    overflow: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    height: 70vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+}
+
+table {
+    width: 100%;
+    padding:10px;
+    position: relative;
+}
+
+.table_header {
+    position: sticky;
+    top: 0;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    z-index: 0;
+        
+}
+
+td {
+    text-align: center;
+    z-index: 0;
+}
+
+
+.project_name {
+   
+    background-color: #FF6A48;
+}
+
+.project_name > button {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color: #FF6A48;
+    border: none;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.project_status {
+    
+    background-color: #CDF3C7;
+}

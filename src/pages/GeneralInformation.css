@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.div_title {
+    height: 13vh;
+}
+.div_title h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    text-decoration: underline #FF7501;
+    margin-left: 8px;
+}
+
+
+.div_button button {
+    background-color: #EE964C;
+    border: none;
+    width: 180px;
+    height: 59px;
+    font-size: 26px;
+    border-radius: 17px;
+    float: right;
+
+}
+
+.div_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 80px;
+    margin-right: 10px;
+
+}
+
+.div_sub_title {
+    background-color: #EE964C;
+    border-radius: 0 29px 0 0;
+    width: 548px;
+
+}
+.div_inicio input {
+    background-color: #EE964C;
+}
+
+.div_fim input {
+    background-color: #EE964C;
+}
+
+.div_status input {
+    background-color: #EE964C;
+}
+
+.div_nome input {
+    background-color: #EE964C;
+}
+
+.div_fase input {
+    background-color: #EE964C;
+}
+
+.div_valor input {
+    background-color: #EE964C;
+}
+
+.div_inicio {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_fim {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_status {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_nome {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_fase {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_valor {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div_sub_title h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.div_information_block {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.div_informations {
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #EE964C;
+    border-right: 1px solid black;
+    
+
+}
+
+.div_team {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EE964C;
+
+}
+
+.div_title_team {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+.div_photo {
+    width: 108px;
+    height: 115px;
+    border-radius: 14px;
+
+}
+
+.div_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.div_selfs {
+    text-align: center;
+}

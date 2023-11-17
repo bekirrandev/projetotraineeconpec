@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.div-menu { 
+    grid-area: 'menu';
+    width: 5vw;
+    height: 100vh;
+}
+
+.div-page { 
+    grid-area: 'main';
+    width: 95vw;
+    height: 100vh;
+}
+
+.sheets{
+    display: grid;
+    grid-template-areas:
+    'menu main'
+    'menu main'
+    'menu main'
+    'menu main';
+    grid-gap: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.div-side-bar{
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: #FF7501;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.div-title{
+    width: 100%;
+    text-align: left;
+}
+
+.div-title h1{
+    margin: 35px;
+    font-family: Roboto;
+}
+
+.table{
+    width: 80%;
+    height: 40%;
+    overflow: auto;
+}
+
+.PDFcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.table-th{
+    background-color: #302C22;
+    border-radius: 16px;
+    color: white;
+    width: 329px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.table-sp{
+    height: 40%;
+    overflow: auto;
+}
+
+.table-sp-th{
+    background-color: #302C22;
+    border-radius: 16px;
+    color: white;
+    width: 144px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.button-icon-navbar, a{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.div-icon-home{
+    height: 20vh;
+}
+
+.button-icon-home{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.div-table{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+    overflow: auto;
+}
+
+.div-table::-webkit-scrollbar{
+    width: 5px;
+}
+
+.div-table::-webkit-scrollbar-thumb {
+    background: #302C22;
+    border-radius: 40px;
+    width: 4px;
+}
+
+
+.div-table-information{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.table-info-th{
+    background-color: #302C22;
+    border-radius: 16px;
+    color: white;
+    width: 150px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.table-info-td{
+    border-radius: 16px;
+    width: 150px;
+    height: 89px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table-general-information input{
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+    width: 144px;
+    height: 89px;
+}
+
+#fibo1 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#btn-close-modal {
+    margin-right: -1px;
+    width: 5%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.div-button-close-modal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
